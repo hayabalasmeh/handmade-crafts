@@ -1,7 +1,7 @@
 
 alert("Hello To Handmade Crafts Made by Professional People around the World");
 
-prompt('Do you like Handmade crafts?');
+prompt('Do you like Handmade crafts?','yes/no');
 
 
 
@@ -15,5 +15,4 @@ if (TypeOfCraft === 'textile crafts') {
 } else if (TypeOfCraft === 'fashion crafts'){
     document.write('<img src="https://cdn.shopify.com/s/files/1/1150/2764/files/Kalamkari_80a6be51-ee33-4c65-ba4f-fc272b62e017_1024x1024.jpg?v=1559559375"/>')
 } else { alert("Could you Please choose one the mentioned") }
-
 
